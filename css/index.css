@@ -1,8 +1,37 @@
-h1,p {
+body {
   float: left;
   font-family: 'magicthe_gatheringregular';
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 p {
   width: 80em;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+nav {
+  background-color: darkred;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: fixed;
+}
+
+div {
+  padding: 5px;
+  flex: 1 1 auto;
+  text-align: center;
+  border: 2px solid white;
+}
+
+
+
+div:hover {
+  background-color: red;
 }
